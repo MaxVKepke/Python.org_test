@@ -1,7 +1,7 @@
 import time
 
 from Page.BasePage import BasePage
-from Page.BaseTest import BaseTest
+from Test_suites.BaseTest import BaseTest
 
 
 class TestFooter(BaseTest):
@@ -26,7 +26,7 @@ class TestFooter(BaseTest):
 
         text = 'gettingstarted'
         assert (text in current_url), \
-            ''''''
+            '''Check is there a text in the variable url on the page'''
 
         '''---------------------------------------------------------------------------------------'''
 
@@ -37,7 +37,7 @@ class TestFooter(BaseTest):
 
         text = 'mac-osx'
         assert (text in current_url), \
-            ''''''
+            '''Check is there a text in the variable url on the page'''
 
         '''---------------------------------------------------------------------------------------'''
 
@@ -48,7 +48,7 @@ class TestFooter(BaseTest):
 
         text = 'av'
         assert (text in current_url), \
-            ''''''
+            '''Check is there a text in the variable url on the page'''
 
         '''---------------------------------------------------------------------------------------'''
 
@@ -59,7 +59,7 @@ class TestFooter(BaseTest):
 
         text = 'diversity'
         assert (text in current_url), \
-            ''''''
+            '''Check is there a text in the variable url on the page'''
 
         '''---------------------------------------------------------------------------------------'''
 
@@ -70,7 +70,7 @@ class TestFooter(BaseTest):
 
         text = 'arts'
         assert (text in current_url), \
-            ''''''
+            '''Check is there a text in the variable url on the page'''
 
         '''---------------------------------------------------------------------------------------'''
 
@@ -81,11 +81,11 @@ class TestFooter(BaseTest):
 
         text = 'blogspot'
         assert (text in current_url), \
-            ''''''
+            '''Check is there a text in the variable url on the page'''
 
         '''---------------------------------------------------------------------------------------'''
 
-        base_page.back_to_privies_page(core_mentorship_footer_locator)
+        base_page.back_to_privies_page(core_mentorship_footer_locator) # if element with 'core_mentorship_footer_locator' not fount back to privies page
         base_page.scroll_into_view(footer_locator)
         time.sleep(0.5)
         base_page.push(core_mentorship_footer_locator)
@@ -93,7 +93,7 @@ class TestFooter(BaseTest):
 
         text = 'mentorship'
         assert (text in current_url), \
-            ''''''
+            '''Check is there a text in the variable url on the page'''
 
         '''---------------------------------------------------------------------------------------'''
 
@@ -104,6 +104,6 @@ class TestFooter(BaseTest):
 
         text = 'events'
         assert (text in current_url), \
-            ''''''
+            '''Check is there a text in the variable url on the page'''
 
         '''---------------------------------------------------------------------------------------'''

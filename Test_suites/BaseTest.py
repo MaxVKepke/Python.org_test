@@ -20,8 +20,8 @@ class BaseTest(object):
     def teardown(self):
         DriverWrapper.close_driver()
 
-
     def add_rout_in_url_and_go_to_url(self, url):
+        """Get base url, add routs in the base url and go in to the url with routs"""
         print('______________base URL_____________')
         print(self.base_url)
         base_url = self.base_url

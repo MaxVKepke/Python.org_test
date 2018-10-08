@@ -1,7 +1,5 @@
-import time
-
 from Page.BasePage import BasePage
-from Page.BaseTest import BaseTest
+from Test_suites.BaseTest import BaseTest
 from Page.MainDropDownMenu import MainNavigationMenu
 
 
@@ -26,31 +24,31 @@ class TestElements(BaseTest):
         base_page.enable_drop_down(documentation_item)
         navigator_menu.enable_drop_down(docs_item)
         assert navigator_menu.is_element_visible(docs_item) is False, \
-            '''Check visible item Docs or not '''
+            '''Check on the main page in the main bar, documentation drop-down visible item Docs or not '''
 
         navigator_menu.enable_drop_down(talk_item)
         assert navigator_menu.is_element_visible(talk_item) is False, \
-            '''Check visible item Talk or not '''
+            '''Check on the main page in the main bar, documentation drop-down visible item Talk or not '''
 
         navigator_menu.enable_drop_down(begin_guide_item)
         assert navigator_menu.is_element_visible(begin_guide_item) is False, \
-            '''Check visible item Begin Guide or not '''
+            '''Check on the main page in the main bar, documentation drop-down visible item Begin Guide or not '''
 
         navigator_menu.enable_drop_down(develop_guide_item)
         assert navigator_menu.is_element_visible(develop_guide_item) is False, \
-            '''Check visible item Guide or not '''
+            '''Check on the main page in the main bar, documentation drop-down visible item Guide or not '''
 
         navigator_menu.enable_drop_down(faq_item)
         assert navigator_menu.is_element_visible(faq_item) is False, \
-            '''Check visible item Faq or not '''
+            '''Check on the main page in the main bar, documentation drop-down visible item Faq or not '''
 
         navigator_menu.enable_drop_down(english_docs_item)
         assert navigator_menu.is_element_visible(english_docs_item) is False, \
-            '''Check visible item English Docs or not '''
+            '''Check on the main page in the main bar, documentation drop-down visible item English Docs or not '''
 
         navigator_menu.enable_drop_down(pep_index_item)
         assert navigator_menu.is_element_visible(pep_index_item) is False, \
-            '''Check visible item Index or not '''
+            '''Check on the main page in the main bar, documentation drop-down visible item Index or not '''
 
         navigator_menu.enable_drop_down(python_books_item)
         assert navigator_menu.is_element_visible(python_books_item) is False, \
@@ -60,7 +58,6 @@ class TestElements(BaseTest):
         assert navigator_menu.is_element_visible(python_essays_item) is False, \
             '''Check visible item Python Essays or not '''
 
-        """"""
         success_stories_item = navigator_menu.tab_success_stories_tob_bar
         arts_item = navigator_menu.item_arts_locator
         business_item = navigator_menu.item_business_locator

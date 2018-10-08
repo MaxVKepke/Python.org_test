@@ -1,7 +1,5 @@
-import time
-
 from Page.BasePage import BasePage
-from Page.BaseTest import BaseTest
+from Test_suites.BaseTest import BaseTest
 from Page.GettingStarted import GettingStarted
 from Page.HomePage import HomePage
 from Page.IframeWidget import IframeWidget
@@ -9,7 +7,7 @@ from Page.IframeWidget import IframeWidget
 
 class TestGettingStarted(BaseTest):
 
-    def test_persent_all_elements(self):
+    def test_present_all_elements(self):
         route_url = '/about/gettingstarted/'
         self.add_rout_in_url_and_go_to_url(route_url)
         getting_started_page = GettingStarted()

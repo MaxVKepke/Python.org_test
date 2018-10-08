@@ -1,13 +1,14 @@
 from Page.BasePage import BasePage
-from Page.BaseTest import BaseTest
+from Test_suites.BaseTest import BaseTest
 from Page.HomePage import HomePage
 from Page.MainDropDownMenu import MainNavigationMenu
 
 
 class TestAllElements(BaseTest):
 
-    '''Test present all element on home page'''
     def test_present_elements(self):
+        """Test present all element on home page"""
+
         home_page = HomePage()
         base_page = BasePage()
 
@@ -24,6 +25,7 @@ class TestAllElements(BaseTest):
 
         '''check present widget in home page'''
         home_page.check_element_on_page(header_element_list_locators)
+
         home_page.check_element_on_page(main_nav_bar_list_elements_locator)
         home_page.check_element_on_page(launch_interactive_shell_list_locator)
         home_page.check_element_on_page(first_part_widgets_list_locator)

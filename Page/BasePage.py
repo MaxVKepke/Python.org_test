@@ -85,48 +85,47 @@ class BasePage(object):
         self.driver = DriverWrapper.get_webdriver()
         self.wait = WebDriverWait(self.driver, self.wait_element_time)
 
-    '''Bush on elements with some locator'''
     def push(self, element_locator):
-            button = self.wait.until(EC.presence_of_element_located(element_locator), 'There is no input')
-            push = button.click()
-            return push
+        """Bush on elements with some locator"""
+        button = self.wait.until(EC.presence_of_element_located(element_locator), 'There is no input')
+        push = button.click()
+        return push
 
-    '''Wait element on page until element presence'''
     def is_element_present(self, field_locator, error='There is no element on page'):
-            field = self.wait.until(EC.presence_of_element_located(field_locator), error)
-            if field is True:
-                return field
-            else:
-                return False
+        """Wait element on page until element presence"""
+        field = self.wait.until(EC.presence_of_element_located(field_locator), error)
+        if field is True:
+            return field
+        else:
+            return False
 
-    '''If element not found back to privies page'''
     def back_to_privies_page(self, field_locator):
+        """If element not found back to privies page"""
         try:
             self.wait.until(EC.presence_of_element_located(field_locator))
             return True
         except:
             self.driver.back()
 
-    '''Move to element with drop-dawn'''
     def enable_drop_down(self, element_locator):
+        """Move to element with drop-dawn"""
         find_elements = self.wait.until(EC.presence_of_element_located(element_locator))
         ActionChains(self.driver).move_to_element(find_elements).perform()
         return find_elements
 
-    '''Get url page which you are'''
     def get_current_url(self):
+        """Get url page which you are"""
         url = self.driver.current_url
         print('\n---------CURRENT URL-------------\n' + url)
         return url
 
-    '''Scroll page to the element'''
     def scroll_into_view(self, element_locator):
+        """Scroll page to the element"""
         button = self.wait.until(EC.presence_of_element_located(element_locator))
         self.driver.execute_script("return arguments[0].scrollIntoView();", button)
 
-
-    '''Check present element on page '''
     def check_element_on_page(self, list_of_element_locator):
+        """Check present element on page"""
         """Browse the list elements"""
         for widget in list_of_element_locator:
             assert self.is_element_present(widget) is False, \
