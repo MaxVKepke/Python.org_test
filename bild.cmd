@@ -6,4 +6,4 @@ Test_navigation_main_bar.py
 Test_navigstion_by_logo.py
 Test_present_all_element.py
 Test_top_bar.py
-exitgi
+exit

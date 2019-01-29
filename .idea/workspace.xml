@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ec4a8e7-b4c4-4d0c-815e-7fda2ccb9606" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bild.cmd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bild.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/bild.cmd" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/bild.cmd">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -186,13 +186,14 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.By Scope" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Python_org_test" />
+      <recent name="C:\Users\m.borshchevskyi\PycharmProjects\PythonOrg" />
+      <recent name="C:\Users\m.borshchevskyi\PycharmProjects\PythonOrg\Page\utilites" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\m.borshchevskyi\PycharmProjects\PythonOrg\Test_suites" />
       <recent name="C:\Users\m.borshchevskyi\PycharmProjects\PythonOrg\Page" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\m.borshchevskyi\PycharmProjects\PythonOrg" />
-      <recent name="C:\Users\m.borshchevskyi\PycharmProjects\PythonOrg\Page\utilites" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548792149966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="all2">
+      <created>1548792705973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548792705973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -355,7 +363,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13681242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -397,7 +404,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all" />
-    <option name="LAST_COMMIT_MESSAGE" value="all" />
+    <MESSAGE value="all2" />
+    <option name="LAST_COMMIT_MESSAGE" value="all2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Page/utilities/BasePage.py" />
@@ -561,7 +569,7 @@
     <entry file="file://$PROJECT_DIR$/bild.cmd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
