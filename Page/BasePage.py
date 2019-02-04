@@ -26,7 +26,7 @@ class BasePage(object):
     logo_image_link = (By.CSS_SELECTOR, 'img.python-logo')
 
     '''Search menu'''
-    search_widget = (By.CSS_SELECTOR, 'div.options-bar.do-not-print')
+    search_widget = (By.CSS_SELECTOR, 'div.options-bar')
 
     search_icon = (By.CSS_SELECTOR, 'span.icon-search')
     input_search_field = (By.CSS_SELECTOR, 'input.search-field.placeholder')
@@ -51,7 +51,7 @@ class BasePage(object):
     diversity_footer = (By.CSS_SELECTOR, 'ul.sitemap.navigation.menu.do-not-print a[href="/community/diversity/"]')
 
     success_stories_in_footer = (By.CSS_SELECTOR, 'ul.sitemap.navigation.menu.do-not-print li.element-5')
-    arts_footer = (By.CSS_SELECTOR, 'ul.sitemap.navigation.menu.do-not-print a[href="/about/success/#arts"]')
+    arts_footer = (By.CSS_SELECTOR, 'ul.sitemap.navigation.menu.do-not-print a[href="/success-stories/category/arts/"]')
 
     news_in_footer = (By.CSS_SELECTOR, 'ul.sitemap.navigation.menu.do-not-print li.element-6')
     psf_news_footer = (By.CSS_SELECTOR, 'ul.sitemap.navigation.menu.do-not-print a[href="http://pyfound.blogspot.com/"]')
@@ -79,7 +79,7 @@ class BasePage(object):
     lower_part_of_footer_list = [footer_links_navigation, copyright_links_navigation]
     '''======================================================================================================'''
 
-    wait_element_time = 10
+    wait_element_time = 20
 
     def __init__(self):
         self.driver = DriverWrapper.get_webdriver()

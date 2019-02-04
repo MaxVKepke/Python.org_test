@@ -21,7 +21,7 @@ class IframeWidget(BasePage):
     '''Switch from iframe to main content '''
     def switch_to_main_content(self, element_locator):
         self.driver.switch_to_default_content()
-        assert BasePage().is_element_present(element_locator) is False, \
+        assert self.is_element_present(element_locator) is False, \
             '''Check is there, block with element locator present on page, after exit the iframe'''
 
 
