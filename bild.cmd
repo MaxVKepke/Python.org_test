@@ -1,0 +1,9 @@
+pip install selenium
+pip install pytest
+Test_footer.py
+Test_getting_started_page.py
+Test_navigation_main_bar.py
+Test_navigstion_by_logo.py
+Test_present_all_element.py
+Test_top_bar.py
+exit

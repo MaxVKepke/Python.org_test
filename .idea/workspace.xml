@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/Test_suites/BaseTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_suites/BaseTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/DriverWrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/DriverWrapper.py" afterDir="false" />
     </list>
+    <list default="true" id="1ec4a8e7-b4c4-4d0c-815e-7fda2ccb9606" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +73,82 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test_suites/Test_footer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_suites/Test_navigation_main_bar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bild.cmd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/GettingStarted.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/BasePage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="72" column="85" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_suites/Test_getting_started_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Page/IframeWidget.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,6 +215,10 @@
         <option value="$PROJECT_DIR$/Test_suites/Test_navigation_main_bar.py" />
         <option value="$PROJECT_DIR$/Page/MainDropDownMenu.py" />
         <option value="$PROJECT_DIR$/Page/BasePage.py" />
+        <option value="$PROJECT_DIR$/Page/BasePage.py" />
+        <option value="$PROJECT_DIR$/Test_suites/Test_getting_started_page.py" />
+        <option value="$PROJECT_DIR$/Test_suites/Test_navigation_main_bar.py" />
+        <option value="$PROJECT_DIR$/bild.cmd" />
       </list>
     </option>
   </component>
@@ -153,23 +234,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PythonOrg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonOrg" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_org_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_org_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PythonOrg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonOrg" type="462c0819:PsiDirectoryNode" />
-              <item name="Page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonOrg" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonOrg" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_org_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_org_test" type="462c0819:PsiDirectoryNode" />
               <item name="Test_suites" type="462c0819:PsiDirectoryNode" />
-            </path>
+            </pat
             <path>
               <item name="PythonOrg" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonOrg" type="462c0819:PsiDirectoryNode" />
@@ -184,15 +261,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Test_silpo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.By Scope" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Python_org_test" />
       <recent name="C:\Users\m.borshchevskyi\PycharmProjects\PythonOrg" />
       <recent name="C:\Users\m.borshchevskyi\PycharmProjects\PythonOrg\Page\utilites" />
     </key>
@@ -215,6 +294,8 @@
   </component>
   <component name="RunManager" selected="Python tests.pytest for Test_top_bar.TestTopBar.test_button_in_top_bar">
     <configuration name="pytest for Test_navigation_main_bar.TestElements" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar">
+    <configuration name="pytest for Test_footer.TestFooter" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonOrg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,6 +311,7 @@
       <method v="2" />
     </configuration>
     <configuration name="pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for Test_footer.TestFooter.test_navigation_menu_in_footer" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonOrg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,6 +327,11 @@
       <method v="2" />
     </configuration>
     <configuration name="pytest for Test_navigstion_by_logo.TestNavigationByLogo.test_logo" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="_new_target" value="&quot;Test_footer.TestFooter.test_navigation_menu_in_footer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for Test_getting_started_page.TestGettingStarted" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonOrg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,6 +347,11 @@
       <method v="2" />
     </configuration>
     <configuration name="pytest for Test_present_all_element.TestAllElements.test_present_elements" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="_new_target" value="&quot;Test_getting_started_page.TestGettingStarted&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for Test_navigation_main_bar.TestElements" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonOrg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,6 +367,11 @@
       <method v="2" />
     </configuration>
     <configuration name="pytest for Test_top_bar.TestTopBar.test_button_in_top_bar" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="_new_target" value="&quot;Test_navigation_main_bar.TestElements&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="PythonOrg" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +383,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;Test_top_bar.TestTopBar.test_button_in_top_bar&quot;" />
+      <option name="_new_target" value="&quot;Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -303,6 +401,17 @@
         <item itemvalue="Python tests.pytest for Test_navigstion_by_logo.TestNavigationByLogo.test_logo" />
         <item itemvalue="Python tests.pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar" />
         <item itemvalue="Python tests.pytest for Test_navigation_main_bar.TestElements" />
+      <item itemvalue="Python tests.pytest for Test_footer.TestFooter" />
+      <item itemvalue="Python tests.pytest for Test_footer.TestFooter.test_navigation_menu_in_footer" />
+      <item itemvalue="Python tests.pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar" />
+        <item itemvalue="Python tests.pytest for Test_navigation_main_bar.TestElements" />
+        <item itemvalue="Python tests.pytest for Test_footer.TestFooter" />
+        <item itemvalue="Python tests.pytest for Test_footer.TestFooter.test_navigation_menu_in_footer" />
+        <item itemvalue="Python tests.pytest for Test_getting_started_page.TestGettingStarted" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +426,21 @@
       <option name="presentableId" value="Default" />
       <updated>1536834729069</updated>
     </task>
+    <task id="LOCAL-00001" summary="all">
+      <created>1548792149966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548792149966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="all2">
+      <created>1548792705973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548792705973</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -361,6 +485,46 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32920793" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37744033" />
+    <history-entry file="pytest_for_Test_getting_started_page_TestGettingStarted - 2018.10.08 at 09h 20m 53s.xml">
+      <configuration name="pytest for Test_getting_started_page.TestGettingStarted" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Test_footer_TestFooter_test_navigation_menu_in_footer - 2019.01.29 at 20h 34m 55s.xml">
+      <configuration name="pytest for Test_footer.TestFooter.test_navigation_menu_in_footer" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Test_footer_TestFooter - 2019.01.29 at 20h 35m 56s.xml">
+      <configuration name="pytest for Test_footer.TestFooter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Test_footer_TestFooter - 2019.01.29 at 20h 40m 33s.xml">
+      <configuration name="pytest for Test_footer.TestFooter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Test_footer_TestFooter - 2019.01.29 at 20h 40m 55s.xml">
+      <configuration name="pytest for Test_footer.TestFooter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Test_footer_TestFooter - 2019.01.29 at 20h 41m 23s.xml">
+      <configuration name="pytest for Test_footer.TestFooter" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Test_navigation_main_bar_TestElements_test_drop_down_in_top_bar - 2019.01.29 at 20h 41m 31s.xml">
+      <configuration name="pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Test_navigation_main_bar_TestElements_test_drop_down_in_top_bar - 2019.01.29 at 21h 44m 49s.xml">
+      <configuration name="pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Test_navigation_main_bar_TestElements_test_drop_down_in_top_bar - 2019.01.29 at 21h 46m 12s.xml">
+      <configuration name="pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_Test_navigation_main_bar_TestElements_test_drop_down_in_top_bar - 2019.01.29 at 21h 52m 26s.xml">
+      <configuration name="pytest for Test_navigation_main_bar.TestElements.test_drop_down_in_top_bar" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13681242" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43145162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39851484" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,14 +532,18 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49926037" weight="0.35357916" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50073963" side_tool="true" weight="0.33168316" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49926037" visible="true" weight="0.33198926" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50073963" side_tool="true" weight="0.3322314" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all" />
+    <MESSAGE value="all2" />
+    <option name="LAST_COMMIT_MESSAGE" value="all2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Page/utilities/BasePage.py" />
@@ -458,6 +626,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebDrivers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/Base.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/common/service.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/py/_path/local.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/_pytest/python.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/chrome/options.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/support/wait.py" />
+    <entry file="file://$PROJECT_DIR$/Page/Home_page.py" />
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/common/action_chains.py" />
     <entry file="file://$PROJECT_DIR$/utilities/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -496,6 +680,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/utilities/DriverWrapper.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pip-18.0-py3.7.egg/pip/_internal/vcs/git.py" />
+    <entry file="file://$PROJECT_DIR$/Test_suites/Test_present_all_element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="23" />
@@ -532,6 +718,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test_suites/Test_footer.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-760466470/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
@@ -549,6 +737,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="102">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -563,6 +756,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="119">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -570,6 +768,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,6 +780,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        <state relative-caret-position="1071">
+          <caret line="72" column="85" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -594,6 +799,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+    <entry file="file://$PROJECT_DIR$/Page/IframeWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bild.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_suites/Test_footer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
