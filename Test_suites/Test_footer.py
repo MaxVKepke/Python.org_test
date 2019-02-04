@@ -7,7 +7,7 @@ from Test_suites.BaseTest import BaseTest
 class TestFooter(BaseTest):
 
     def test_navigation_menu_in_footer(self):
-        base_page = BasePage().ssss
+        base_page = BasePage()
         getting_started_in_footer_locator = base_page.getting_started_in_footer
         mac_os_x_in_footer_locator = base_page.mac_os_x_in_footer
         audio_visual_talks_part_footer_locator = base_page.audio_visual_talks_part_footer
