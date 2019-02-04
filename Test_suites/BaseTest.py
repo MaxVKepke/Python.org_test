@@ -1,17 +1,19 @@
-from selenium.webdriver.support import expected_conditions as EC
 
 import pytest
 
 from utilities.DriverWrapper import DriverWrapper
 
+
 @pytest.mark.usefixtures('get_browser_name')
 @pytest.mark.usefixtures('get_base_url')
+@pytest.mark.usefixtures('get_base_host')
 class BaseTest(object):
 
     def setup(self):
         self.driver = DriverWrapper.get_webdriver()
         try:
             self.driver.maximize_window()
+            self.driver.get(self.base_url)
 
         except Exception as error:
             DriverWrapper.close_driver()

@@ -7,7 +7,6 @@ import WebDrivers
 from utilities import settings
 
 
-
 class DriverWrapper(object):
     _instance = None
 
@@ -33,7 +32,6 @@ class DriverWrapper(object):
             drivers_path = os.path.join(webdrivers_path, "IEDriverServer_32.exe")
             self._driver = webdriver.Ie(executable_path=drivers_path)
 
-        self._driver.get('https://www.python.org/')
 
     @classmethod
     def close_driver(cls):

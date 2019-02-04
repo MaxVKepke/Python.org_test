@@ -61,15 +61,15 @@ class MainNavigationMenu(BasePage):
     By.CSS_SELECTOR, 'li#community li.element-12 a[href="https://www.python.org/psf/codeofconduct/"]')
 
     '''Success stories drop-down menu'''
-    tab_success_stories_tob_bar = (By.CSS_SELECTOR, 'ul.navigation.menu a[href="/about/success/"]')
+    tab_success_stories_tob_bar = (By.CSS_SELECTOR, 'ul.navigation.menu a[href="/success-stories/"]')
 
-    item_arts_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-1 a[href="/about/success/#arts"]')
-    item_business_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-2 a[href="/about/success/#business"]')
-    item_education_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-3 a[href="/about/success/#education"]')
-    item_engineering_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-4 a[href="/about/success/#engineering"]')
-    item_government_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-5 a[href="/about/success/#government"]')
-    item_scientific_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-6 a[href="/about/success/#scientific"]')
-    item_development_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-7 a[href="/about/success/#software-development"]')
+    item_arts_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-1 a[href*="arts"]')
+    item_business_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-2 a[href*="business"]')
+    item_education_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-3 a[href*="education"]')
+    item_engineering_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-4 a[href*="engineering"]')
+    item_government_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-5 a[href*="government"]')
+    item_scientific_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-6 a[href*="scientific"]')
+    item_development_locator = (By.CSS_SELECTOR, 'li#success-stories li.element-7 a[href*="software-development"]')
 
     '''News drop-down menu'''
     tab_news_tob_bar = (By.CSS_SELECTOR, 'ul.navigation.menu a[href="/blogs/"]')
