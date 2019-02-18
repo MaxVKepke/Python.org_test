@@ -109,3 +109,8 @@ class TestNavigationByLogo(BaseTest):
 
         assert base_page.is_element_present(launch_shel_locator) is False, \
             '''Check is it the button Lounch Interactiv shell'''
+
+        path_into_screenshot = "C:/My/Projects/Pyscreen/"
+        name_screen = "test"
+
+        base_page.make_screenshot(path_into_screenshot, name_screen)

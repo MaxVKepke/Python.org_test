@@ -137,3 +137,7 @@ class BasePage(object):
         list_elements = self.wait.until(EC.presence_of_all_elements_located(element_locator))
         return list_elements
 
+    def make_screenshot(self, path, name_file, type='jpeg'):
+        self.driver.get_screenshot_as_file(path + name_file + '.' + type)
+
+
