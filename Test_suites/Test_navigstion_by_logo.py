@@ -9,15 +9,15 @@ class TestNavigationByLogo(BaseTest):
     def test_logo(self):
         base_page = BasePage()
         logo_locator = base_page.logo_image_link
-        main_dropdiwn = MainNavigationMenu()
+        main_dropdown = MainNavigationMenu()
 
-        about_in_main_menu_locator = main_dropdiwn.tab_about_tob_bar
-        download_in_main_menu_locator = main_dropdiwn.tab_downloads_tob_bar
-        documentation_in_main_menu_locator = main_dropdiwn.tab_documentation_tob_bar
-        community_in_main_menu_locator = main_dropdiwn.tab_community_tob_bar
-        success_stories_in_main_menu_locator = main_dropdiwn.tab_success_stories_tob_bar
-        news_in_main_menu_locator = main_dropdiwn.tab_news_tob_bar
-        events_in_main_menu_locator = main_dropdiwn.tab_events_tob_bar
+        about_in_main_menu_locator = main_dropdown.tab_about_tob_bar
+        download_in_main_menu_locator = main_dropdown.tab_downloads_tob_bar
+        documentation_in_main_menu_locator = main_dropdown.tab_documentation_tob_bar
+        community_in_main_menu_locator = main_dropdown.tab_community_tob_bar
+        success_stories_in_main_menu_locator = main_dropdown.tab_success_stories_tob_bar
+        news_in_main_menu_locator = main_dropdown.tab_news_tob_bar
+        events_in_main_menu_locator = main_dropdown.tab_events_tob_bar
 
         '''-----------------------------------------------------------------------------------'''
 
