@@ -14,7 +14,7 @@ def pytest_addoption(parser):
                      dest='base_url',
                      type=str,
                      help='Base URL',
-                     default='python.org/')
+                     default='python.org')
 
 
 @pytest.fixture()
@@ -32,6 +32,6 @@ def get_base_host(request):
 @pytest.fixture()
 def get_base_url(request):
     base_host = request.config.getoption("--base-url")
-    request.cls.base_url = 'https://{}/'.format(base_host)
+    request.cls.base_url = 'https://{}'.format(base_host)
     settings.base_url = request.cls.base_url
 
