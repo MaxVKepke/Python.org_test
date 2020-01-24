@@ -4,10 +4,9 @@ from Page.BasePage import BasePage
 
 
 class HomePage(BasePage):
-
-    '''
-     Widget locators
-     '''
+    """
+    Widget locators
+    """
     launch_interactive_shell = (By.CSS_SELECTOR, 'div.header-banner')
 
     launch_interactive_shell_button = (By.CSS_SELECTOR, 'ul.launch-shell.menu a.button.prompt')
